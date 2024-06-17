@@ -1,0 +1,96 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.nav{
+    height: 10vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+}
+
+.container{
+    height: 30vh;
+    width: 80vw;
+    margin-left: 8%;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.container1{
+    margin-top: 15px;
+    height: 30vh;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.addbtn{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1%;
+    margin-right:12%;
+
+}
+.btnsec{
+    display: flex;
+    align-items: center;
+}
+.deletebtn{
+    height: 24px;
+    width: 24px;
+}
+.searchitem{
+    display: flex;
+    flex-direction: row ;
+}
+
+.addnewreport{
+    margin-top: 5%;
+    height: 25vh;
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.display{
+    display: none;
+}
+.folder{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+.folder input{
+    padding: 5px 5px 5px 38px;
+  border: 1px dashed #ccc;
+  height: auto;
+  border-radius: 4px;
+  
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 25px 25px;
+}
+.para{
+    font-size: 12px;
+}
+.dropzoneContainer{
+    border: 2px dashed #007bff;
+    border-radius: 4px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 60%;
+}
+/* .imagebox{
+    height: 7vh;
+    width: 7vw;
+    border: 1px solid black;
+    margin-right: 30%;
+} */
